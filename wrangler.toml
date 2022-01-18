@@ -1,8 +1,8 @@
-name = "remix-cloudflare-workers"
+name = "listening-game"
 type = "javascript"
 
 zone_id = ""
-account_id = ""
+account_id = "f7f8cd27de762723b14dab4fb54a5337"
 route = ""
 workers_dev = true
 
@@ -12,7 +12,7 @@ entry-point = "."
 
 [build]
 command = "npm run build:worker"
-watch_dir = "build/index.js"
+watch_dir = "build"
 
 [build.upload]
 format="service-worker"
